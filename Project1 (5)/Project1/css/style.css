@@ -1,0 +1,297 @@
+
+/*creating borders around menu links*/
+
+a.one, a.two, a.three{
+	border-style: double;
+	font-family: verdana;
+	font-size: 30px;
+	color: white;
+}
+
+
+
+
+/* setting header1 in a fix position,		   *
+ * it does not move when the page is scrolled  */
+  
+.header1 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+	padding-left: 50px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+		
+}
+
+.header1 {
+	background-color: black;
+}
+
+
+
+
+
+/* Changin the format, font, size  *
+ * and color of header of homePage */
+
+#homepageHeader {
+	position: relative;
+    font-family: "Georgia",serif;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+
+
+
+
+/* floating the logo to the left so it can		*
+ * stay by header side, and padding by 40px so	*
+ * they are not next to one another             */
+
+#logo { 
+	float: left;
+	height: 60px;
+	padding-right: 40px;
+}
+
+
+
+
+
+
+
+/* Setting the menu class to start on left side *
+ * and it will have content class nested   		*/
+
+.menu {
+	
+	
+	margin-left: 0px;
+	margin-top: 250px;
+	margin-right: 750px;
+	padding-right: 200px;
+	text-align: center;
+	
+
+}
+
+
+
+/* content is floating to the right of menu  */
+ 
+.content {
+	margin-left: 500px;
+	margin-right: 0px;
+	width: 500px;
+	height: 500px;
+	
+	
+}
+
+
+
+
+
+/* changing the format, size and position of  *
+ * the paragraph 1 on homePage				  */
+
+#para1 { 
+	float: right;
+	font-family: verdana;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	
+}
+
+
+
+
+/*positioning the footer in the bottom of the screen */
+
+.footer {
+	margin-bottom: 0px;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 30px;
+	padding-top:30px;
+	
+	background-color: silver; 
+	
+}
+
+
+
+
+/*using a background image for the homePage */
+
+#body1 {
+	background-image: url("https://images6.alphacoders.com/887/887690.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.header2 {
+	width: 100%;
+	height: 150px;
+	padding-left: 100px;
+
+}
+
+
+
+
+/*using a background image for the form page */
+
+#body2 {
+	background-image: url("http://getwallpapers.com/wallpaper/full/d/3/1/464144.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+/* Changing the  font, size 	   *
+ * and weight header of homeForm   */
+	
+#headerForm {
+	font-weight: bold;
+	font-size: 50px;
+	
+}
+
+
+
+
+
+.form1 {
+	margin-left: 50px;
+	width: 90%;
+	height: 100%;
+	border-radius: 5px;
+	padding: 20px;
+
+	
+}
+
+
+
+/* changing the background color of container, 	   *
+ *	which holds all the form, and when the page is *
+ *	re-sized the color will still be the same      */
+ 
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	
+}
+
+
+/* changing all default properties of  *
+ * input types						   */
+ 
+ input, text, password, select,submit{
+	width: 100%;
+	margin: 8px;
+	padding: 8px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	border: 1px solid #ccc;
+	
+}
+
+
+
+
+
+/* changing the properties of animation		*
+ * duration time, how many times will 		*
+ * iterate, the color and changin the shape *
+ * to a circle								*/
+
+.animation {
+	width: 100px;
+	height: 100px;
+	border-radius: 360px;
+	background-color: teal;
+	position: relative;
+	animation-name: animationPage;
+	animation-duration: 10s;
+	animation-iteration-count: 5;
+}
+
+
+
+@keyframes animationPage {
+
+	 0%   {background-color:teal; left:0px; top:0px;}
+	10%  {background-color:purple; left:100px; top:200px;}
+	20%  {background-color:teal; left:200px; top:0px;}
+	30%  {background-color:purple; left:300px; top:200px;}
+	40%  {background-color:teal; left:400px; top:0px;}
+	50%  {background-color:purple; left:500px; top:200px;}		
+	60%  {background-color:teal; left:400px; top:0px;}
+	70%  {background-color:purple; left:300px; top:200px;}
+	80%  {background-color:teal; left:200px; top:0px;}
+	90%  {background-color:purple; left:100px; top:200px;}
+	100%   {background-color:teal; left:0px; top:0px;}
+		
+}
+
+
+
+
+
+/* Changing the format, font, size       *
+ * and color of header of animation Page */
+
+#animationHeader {
+	font-weight: Bold;
+	font-family: verdana;
+	color: black;
+}
+
+
+
+/*using a background image for the animation page */
+
+#body3 {
+	
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt86jKthwdFM4KiaqUWlCh1-GUqbwLtbVtM4P64PP4TM_69pK6");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a.link1,a.link2 {
+	color: black;
+	font-size: 20px;
+	border-style: solid;
+}
+
+.header3 {
+	height: 100px;
+	padding-left: 50px;
+}
+
+
+.invalid {
+	color: red;
+}
+
+.valid {
+	color: green;
+}
